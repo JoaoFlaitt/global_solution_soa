@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(60) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    street VARCHAR(100),
+    number VARCHAR(10),
+    city VARCHAR(60),
+    state VARCHAR(2),
+    role VARCHAR(20)
+)

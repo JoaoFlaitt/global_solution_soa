@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<model name='FutureSkillsHub' identifier='model-1' xmlns='http://www.opengroup.org/xsd/archimate' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <elements>
+    <element identifier='S_User' xsi:type='Stakeholder' name='User'/>
+    <element identifier='G_ReduzirDesigualdade' xsi:type='Goal' name='Reduzir Desigualdade'/>
+    <element identifier='R_FR1' xsi:type='Requirement' name='FR1 - Plataforma web + mobile'/>
+  </elements>
+  <views>
+    <view identifier='V1' name='Motivation View'/>
+  </views>
+</model>
